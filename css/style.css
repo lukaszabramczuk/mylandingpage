@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#aboutme {
+    background-color: black;
+    height: 100vh;
+    width: auto;
+}
+
+#skills {
+    background-color: grey;
+    height: 100vh;
+    width: auto;
+}
