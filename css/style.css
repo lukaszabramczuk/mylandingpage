@@ -5,14 +5,16 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
 }
 
 #home {
     background: url('../images/home.jpg') center;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-size: cover;
     overflow: hidden;
+    opacity: 0.9;
 }
 
 .menu {
@@ -27,11 +29,18 @@ body {
 
 
 #aboutme {
-    background-color: white;
+    background-color: black;
+    color: darkgrey;
     height: 100vh;
     width: auto;
+    padding: 15%;
 }
 
+.myphoto {
+    border: 3px solid white;
+    width: 90%;
+    opacity: 0.9;
+}
 #skills {
     background-color: grey;
     height: 100vh;
